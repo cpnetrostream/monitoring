@@ -52,3 +52,4 @@ HTTP Body
 `string name `
 `string stage `
 
+-- States disabled or enabled
