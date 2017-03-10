@@ -28,10 +28,10 @@ Content-Type: application/json
 token: ####(get from streamtest account rep)####
 ```
 *Returns a JSON formatted list of all monitors on your account.
-`string id `
-`string name `
-`string stage `
-`string thumbnail_url `
+`string id`
+`string name`
+`string stage`
+`string thumbnail_url`
 
 
 Enable or Disable monitoring of a stream:
