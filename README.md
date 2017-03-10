@@ -21,20 +21,20 @@ The API is quite simple:
 
 ## Examples
 
-Get all monitors on your account:
+**Get all monitors on your account:**
 ```
 GET https://streamtest-tools.azurewebsites.net/api/GetMonitors
 Content-Type: application/json
 token: ####(get from streamtest account rep)####
 ```
-* Returns a JSON formatted list of all monitors on your account.
+* Returns a JSON formatted list of all monitors on your account:
 `string id`
 `string name`
 `string stage`
 `string thumbnail_url`
 
 
-Enable or Disable monitoring of a stream:
+**Enable or Disable monitoring of a stream:**
 ```
 POST https://streamtest-tools.azurewebsites.net/api/SetMonitor
 token: ####(get from streamtest account rep)####
