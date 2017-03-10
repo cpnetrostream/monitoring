@@ -27,7 +27,7 @@ GET https://streamtest-tools.azurewebsites.net/api/GetMonitors
 Content-Type: application/json
 token: ####(get from streamtest account rep)####
 ```
-*Returns a JSON formatted list of all monitors on your account.
+* Returns a JSON formatted list of all monitors on your account.
 `string id`
 `string name`
 `string stage`
@@ -47,7 +47,7 @@ HTTP Body
 ,"enabled":"false"
 }
 ```
-*Returns a JSON formatted response 
+* Returns a JSON formatted response 
 `string id `
 `string name `
 `string stage `
