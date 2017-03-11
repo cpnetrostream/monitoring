@@ -53,3 +53,22 @@ HTTP Body
 `string stage `
 
 * Stage returns enabled or disabled
+
+**Add a new Stream to be monitored**
+```
+POST https://streamtest-tools.azurewebsites.net/api/AddMonitor
+token: ####(get from streamtest account rep)####
+Content-Type: application/json
+
+HTTP Body
+{
+"monitor_url":"dca2eb6b-e138-4156-87a6-ae10b08dba54"
+,"enabled":"false"
+,"monitor_location":"US-WEST"
+,"alert_enable":"true"
+,"alert_type":"sms"
+,"alert_address":"555-222-1212"
+,"probe_interval":"60"
+}
+```
+* Returns a JSON formatted response 
