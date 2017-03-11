@@ -62,7 +62,7 @@ Content-Type: application/json
 
 HTTP Body
 {
-"monitor_url":"dca2eb6b-e138-4156-87a6-ae10b08dba54"
+"monitor_url":"rtmp://streamserver.com/stream/live"
 ,"enabled":"false"
 ,"monitor_location":"US-WEST"
 ,"alert_enable":"true"
