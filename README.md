@@ -16,8 +16,7 @@ You'll need a streamtest API token. (Talk to your account rep)
 
 ## Usage
 
-The API is quite simple:
-
+If you have an account with StreamTest.net, you probably love their monitoring service and wish you could control it all with an API call. Well this is the beginning of that API documentation.
 
 ## Examples
 
